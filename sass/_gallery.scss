@@ -1,5 +1,5 @@
 .gallery {
-  grid-column: 2/12;
+  grid-column: full-start / full-end;
   background-color: $color-grey-light-1;
 
   display: grid;

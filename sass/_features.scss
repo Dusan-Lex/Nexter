@@ -1,7 +1,5 @@
 .features {
-  grid-column: 3/11;
-  grid-row: 2/3;
-
+  grid-column: center-start / center-end;
   margin: 15rem 0;
 
   display: grid;
@@ -9,6 +7,14 @@
   grid-gap: 6rem;
   align-items: start;
   grid-auto-rows: auto;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 10rem 0;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 5rem 0;
+  }
 }
 
 .feature {
